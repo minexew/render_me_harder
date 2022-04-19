@@ -1,4 +1,4 @@
-"""Top-level package for render_me_harder."""
+from .render_me_harder import render_frames
 
 __author__ = """minexew"""
 __email__ = 'minexew@gmail.com'

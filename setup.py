@@ -7,10 +7,12 @@ from setuptools import setup, find_packages
 with open('README.rst') as readme_file:
     readme = readme_file.read()
 
-with open('HISTORY.rst') as history_file:
-    history = history_file.read()
-
-requirements = [ ]
+requirements = [
+    "numpy",
+    "Pillow",
+    "pyrender",
+    "trimesh",
+]
 
 test_requirements = [ ]
 
@@ -31,7 +33,7 @@ setup(
     description="Stupidly simple API for rendering 3D models to images",
     install_requires=requirements,
     license="MIT license",
-    long_description=readme + '\n\n' + history,
+    long_description=readme,
     include_package_data=True,
     keywords='render_me_harder',
     name='render_me_harder',
