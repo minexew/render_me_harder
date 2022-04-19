@@ -20,13 +20,20 @@ Stupidly simple API for rendering 3D models to images
 
 
 * Free software: MIT license
-* Documentation: https://render-me-harder.readthedocs.io.
+* Documentation: ~~https://render-me-harder.readthedocs.io.~~
+
+It exports exactly one function: ::
+
+    def render_frames(mesh: trimesh.Trimesh,
+                      w: int,
+                      h: int,
+                      num_frames: int) -> Sequence[Image.Image]
 
 
 Features
 --------
 
-* TODO
+* easy to use
 
 Credits
 -------
